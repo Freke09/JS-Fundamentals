@@ -1,2 +1,8 @@
 let myArguments = process.argv;
-console.log(myArguments[2]);
+
+if(myArguments.length === 2){
+    console.log("No argument");
+}else {
+
+    console.log(myArguments[2]);
+}
